@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Xcode user and build data
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+/Packages
+Package.resolved.bak
+# Uncomment to ignore Package.resolved (keep it tracked for apps, ignore it for libraries)
+# Package.resolved
+
+# Xcode workspace (keep shared settings, ignore personal ones)
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+!*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# CocoaPods / Carthage (in case you add them later)
+Pods/
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code coverage / test results
+*.gcno
+*.gcda
+*.profraw
+*.xcresult
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets / environment files
+.env
+*.xcconfig.local
+EOF
